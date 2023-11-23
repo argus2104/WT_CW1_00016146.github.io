@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+}
+
+.back {
+  background-color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url(kremberthings/krember6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0px;
+}
+#name {
+  background-color: rgb(152, 14, 14);
+  color: white;
+  justify-content: left;
+  font-size: 3rem;
+  display: flex;
+  justify-content: left;
+}
+#name:hover {
+  color: gold;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(152, 14, 14);
+  padding: 0px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > ul > div {
+  display: flex;
+  justify-content: right;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.9rem;
+  display: block;
+  text-align: center;
+}
+.navbar a.active {
+  color: gold;
+}
+.navbar a:hover {
+  color: gold;
+}
+.navbar li {
+  float: left;
+}
+.texts {
+  top: 0px;
+  font-size: 8rem;
+  font-family: Ephesis;
+  color: aliceblue;
+  text-shadow: 4px 4px 15px;
+  width: 85%;
+  lighting-color: aliceblue;
+}
+.texts:hover {
+  color: gold;
+  cursor: pointer;
+}
+footer {
+  color: white;
+  display: block;
+  clear: both;
+  background-color: rgb(152, 14, 14);
+  text-align: center;
+  padding: 1 rem;
+  bottom: 0;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+}
+
+footer > div > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+footer > div > a:hover {
+  color: gold;
+}
+
+footer > div {
+  padding: 2rem;
+  text-align: center;
+  float: left;
+  justify-content: right;
+}
+
+footer > div > i:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.gallery {
+  padding-right: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid hsl(0, 0%, 60%);
+  margin: 5px;
+}
+
+.gallery > div {
+  margin-right: 2rem;
+  background-color: rgb(152, 14, 14);
+  border: 1px solid black;
+  margin: 2rem;
+}
+
+.gallery > div > a > img {
+  height: 80%;
+}
+
+.description {
+  color: white;
+  text-align: center;
+}
+.description:hover {
+  color: gold;
+  cursor: pointer;
+}
+.back.pro {
+  background-color: white;
+}
+aside {
+  width: 80%;
+  float: left;
+}
+section {
+  width: 80%;
+  float: left;
+}
+
+.asa {
+  font-size: 2rem;
+  margin: 20px;
+  padding: 20px;
+}
+.stuff1 {
+  max-width: 50%;
+}
+.stuff1 > img {
+  max-width: 100%;
+  height: auto;
+}
+.stuff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.stuff_text > p {
+  justify-content: flex;
+  font-size: 1.5rem;
+}
+.contacts {
+  font-size: 1.7rem;
+  /* width: 15%; */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contacts > div {
+  margin: 2rem;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgb(152, 14, 14);
+  color: aliceblue;
+  display: flex;
+  padding: 1rem;
+}
+
+/* Form Validation Styles */
+.the_form_container {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  background-color: rgb(152, 14, 14);
+  color: white;
+  width: 30%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+#form > div {
+  padding: 2rem;
+}
+
+#form > div > label {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+#form > div > input {
+  border-radius: 10px;
+  height: 2rem;
+}
+
+#form > button {
+  background-color: aliceblue;
+  margin-top: 2rem;
+  width: 10rem;
+  color: rgb(152, 14, 14);
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#form > button:hover {
+  background-color: gold;
+  color: black;
+}
+
+.warning {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.asa > aside > p > a {
+  color: rgb(151, 14, 14);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.asa > aside > p > a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}
